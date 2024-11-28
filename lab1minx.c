@@ -2,12 +2,15 @@
 
 int main () {
 	
-	int n1 =100,n2=50;
-
+	int n1,n2;
+	printf("n1=");
+	scanf("%d",&n1);
+	printf("n2=");
+	scanf("%d",&n2);
 	if 	(n1>n2){
-		printf("n1>n2");
+		printf("n1>n2  %d",n1-=n2);
 	}else {
-		printf("n2>n1");
+		printf("n2>n1  %d",n2-=n1);
 	}
 	
 }
